@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/corBranco"
+    android:orientation="vertical"
+    android:padding="10pt"
+    tools:context=".Salas">
+
+    <Button
+        android:id="@+id/cond1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10pt"
+        android:background="@color/corVerde"
+        android:paddingTop="8pt"
+        android:paddingBottom="8pt"
+        android:text="Condicionador 1"
+        android:textAllCaps="false"
+        android:textColor="@color/corCinza"
+        android:textSize="12pt"
+        android:onClick="irCondicionador" />
+
+    <TextView
+        android:id="@+id/status_cond1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="3pt"
+        android:paddingBottom="3pt"
+        android:text="Status: Ligado"
+        android:textColor="@color/corPreto"
+        android:textSize="10pt" />
+
+    <Button
+        android:id="@+id/cond2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10pt"
+        android:background="@color/corVermelho"
+        android:paddingTop="8pt"
+        android:paddingBottom="8pt"
+        android:text="Condicionador 2"
+        android:textAllCaps="false"
+        android:textColor="@color/corCinza"
+        android:textSize="12pt"
+        android:onClick="irCondicionador" />
+
+    <TextView
+        android:id="@+id/status_cond2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="3pt"
+        android:paddingBottom="3pt"
+        android:text="Status: Ligado"
+        android:textColor="@color/corPreto"
+        android:textSize="10pt" />
+
+</LinearLayout>

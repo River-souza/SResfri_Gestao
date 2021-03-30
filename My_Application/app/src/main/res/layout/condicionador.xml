@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/corBranco"
+    android:padding="10pt"
+    tools:context=".Condicionador">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10pt"
+        android:paddingTop="10pt"
+        android:paddingBottom="5pt"
+        android:text="Condicionador 1"
+        android:textColor="@color/corPreto"
+        android:textSize="14pt"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/power"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10pt"
+        android:background="@color/corCinza"
+        android:paddingTop="8pt"
+        android:paddingBottom="8pt"
+        android:text="Ligar/Desligar"
+        android:textAllCaps="false"
+        android:textColor="@color/corPreto"
+        android:textSize="12pt" />
+
+    <Button
+        android:id="@+id/ajuste_temperatura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10pt"
+        android:background="@color/corCinza"
+        android:enabled="false"
+        android:paddingTop="8pt"
+        android:paddingBottom="8pt"
+        android:text="Ajustar Temperatura"
+        android:textAllCaps="false"
+        android:textColor="@color/corCinzaEscuro"
+        android:textSize="12pt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="3pt"
+        android:paddingBottom="1pt"
+        android:text="Status:"
+        android:textColor="@color/corPreto"
+        android:textSize="10pt" />
+
+    <TextView
+        android:id="@+id/power_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="1pt"
+        android:paddingBottom="1pt"
+        android:text="Ligado"
+        android:textColor="@color/corVerde"
+        android:textSize="10pt" />
+
+    <TextView
+        android:id="@+id/temperatura_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="1pt"
+        android:paddingBottom="1pt"
+        android:text="-- C°"
+        android:textColor="@color/corVermelho"
+        android:textSize="10pt" />
+
+    <TextView
+        android:id="@+id/umidade_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="1pt"
+        android:paddingBottom="1pt"
+        android:text="--% UR"
+        android:textColor="@color/corVermelho"
+        android:textSize="10pt" />
+
+</LinearLayout>

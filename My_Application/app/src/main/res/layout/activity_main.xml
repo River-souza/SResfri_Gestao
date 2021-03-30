@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/corBranco"
+    android:orientation="vertical"
+    android:padding="5pt"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10pt"
+        android:paddingBottom="5pt"
+        android:text="SmartControl"
+        android:textAlignment="center"
+        android:textSize="16pt"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5pt"
+        android:layout_marginTop="20pt"
+        android:text="Usuário"
+        android:textColor="@color/corPreto"
+        android:textSize="10pt" />
+
+    <EditText
+        android:id="@+id/edtUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="40pt"
+        android:ems="10"
+        android:textSize="10pt"></EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5pt"
+        android:layout_marginTop="20pt"
+        android:text="Senha"
+        android:textColor="@color/corPreto"
+        android:textSize="10pt" />
+
+    <EditText
+        android:id="@+id/edtSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20pt"
+        android:height="40pt"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textSize="10pt"></EditText>
+
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30pt"
+        android:onClick="login"
+        android:paddingTop="15pt"
+        android:paddingBottom="15pt"
+        android:text="Entrar"
+        android:textSize="10pt"
+        android:textStyle="bold" />
+</LinearLayout>

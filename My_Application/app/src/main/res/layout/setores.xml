@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/corBranco"
+    android:orientation="vertical"
+    android:padding="10pt"
+    tools:context=".Setores">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10pt"
+        android:paddingTop="10pt"
+        android:paddingBottom="5pt"
+        android:text="Setores"
+        android:textColor="@color/corPreto"
+        android:textSize="14pt"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/sala1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10pt"
+        android:background="@color/corAmarelo"
+        android:paddingTop="8pt"
+        android:paddingBottom="8pt"
+        android:text="Salas Administrativas"
+        android:textAllCaps="false"
+        android:textSize="12pt"
+        android:onClick="irSala" />
+
+    <Button
+        android:id="@+id/sala2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10pt"
+        android:background="@color/corAmarelo"
+        android:paddingTop="8pt"
+        android:paddingBottom="8pt"
+        android:text="Salas de aula"
+        android:textAllCaps="false"
+        android:textSize="12pt" />
+</LinearLayout>
